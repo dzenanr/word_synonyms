@@ -34,7 +34,7 @@ class EntriesTable {
   addCaption() {
     var tableCaption = new TableCaptionElement();
     tableCaption.text = 
-        '${domainModels.domain.code} ${modelEntries.model.code}}';
+        '${domainModels.domain.code} ${modelEntries.model.code}';
     table.nodes.add(tableCaption);
   }
   
