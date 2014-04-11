@@ -1,9 +1,9 @@
 import 'package:word_synonyms/word_synonyms.dart';
-import 'package:word_synonyms/wc/domain_model.dart';
+import 'package:dartling_app/dartling_app.dart';
 
 main() {
   var repository = new Repository(); 
   WordModels domain = repository.getDomainModels('Word');
-  new EntriesTable(domain);
+  new EntriesTable(domain, 'Synonyms');
 }
  

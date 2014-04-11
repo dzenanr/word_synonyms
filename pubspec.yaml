@@ -2,12 +2,12 @@ name: word_synonyms
 version: 0.0.1
 description: word_synonyms application that uses dartling for its model.
 author: Your Name
-homepage: http://ondart.me/
-documentation:
+homepage: https://github.com/dzenanr/word_synonyms
+documentation: http://goo.gl/wa8JSi
 dependencies:
   browser: any
   dartling:
     git: https://github.com/dzenanr/dartling.git
-  dartling_default_app:
-    git: https://github.com/dzenanr/dartling_default_app.git
+  dartling_app:
+    git: https://github.com/dzenanr/dartling_app.git
   
